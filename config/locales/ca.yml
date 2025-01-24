@@ -937,6 +937,7 @@ ca:
       generates:
         action: Generar
         chance_to_review_html: "<strong>Les condicions de servei generades no es publicaran automàticament.</strong> Tindreu l'oportunitat de revisar-ne els resultats. Empleneu els detalls necessaris per a procedir."
+        explanation_html: La plantilla de condicions de servei proveïda ho és només a títol informatiu i no s'ha d'interpretar com a consell jurídic en cap cas. Consulteu el vostre propi servei legal sobre la vostra situació i les qüestions legals específiques que tingueu.
         title: Configuració de les condicions de servei
       history: Historial
       live: En ús
@@ -1205,6 +1206,7 @@ ca:
     too_fast: Formulari enviat massa ràpid, torna a provar-ho.
     use_security_key: Usa clau de seguretat
     user_agreement_html: He llegit i estic d'acord amb les <a href="%{terms_of_service_path}" target="_blank">condicions de servei</a> i la <a href="%{privacy_policy_path}" target="_blank">política de privadesa</a>
+    user_privacy_agreement_html: He llegit i estic d'acord amb la <a href="%{privacy_policy_path}" target="_blank">política de privacitat</a>
   author_attribution:
     example_title: Text d'exemple
     hint_html: Escriviu notícies o un blog fora de Mastodon? Controleu quin crèdit rebeu quan es comparteixen aquí.
@@ -1892,6 +1894,8 @@ ca:
       title: Un inici de sessió nou
     terms_of_service_changed:
       sign_off: L'equip de %{domain}
+      subject: Actualitzacions de les condicions de servei
+      subtitle: Les condicions de servei de %{domain} canvien
       title: Actualització important
     warning:
       appeal: Envia una apel·lació
